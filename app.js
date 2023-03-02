@@ -1,5 +1,9 @@
 function sakuraFall(v) {
-    // your code here
+    if(v > 0){
+        return (5*80)/v;
+    } else {
+        return 0;
+    }
 }
 
 console.log(sakuraFall(5)); // 80
